@@ -4,6 +4,7 @@
   "description": "Aula 3 - JavaScript - MENTORIA 2.0 - Julio de Lima",
   "main": "index.js",
   "scripts": {
+    "executar": "node src/usarMedia.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -5,6 +5,6 @@ export function calcularLicenca(sexo) {
     } else if (sexo == 'Feminino') {
         return 'A funcionária tem direito a 120 dias de licença maternidade'
     } else {
-        return 'Sexo não identificado. Por favor, informe se é Masculino ou Feminino.'
+        throw new Error('Sexo não identificado. Por favor, informe se é Masculino ou Feminino.'); // exceção para casos onde o sexo não é identificado
     }
 }

@@ -1,31 +1,38 @@
-# Mentoria Aula 3 - JavaScript
+# Mentoria - Aulas de Lógica JavaScript
 
-Projeto educacional da **MENTORIA 2.0** - Aula 3 de JavaScript com foco em fundamentos e operações matemáticas.
+Projeto educacional da **MENTORIA 2.0** com foco em lógica de programação, operações matemáticas e conceitos trabalhistas em JavaScript.
 
 ## 📋 Descrição
 
-Este projeto demonstra conceitos básicos de JavaScript, incluindo:
+Este projeto demonstra conceitos de JavaScript, incluindo:
 - Importação e exportação de módulos
 - Funções matemáticas (soma, subtração, multiplicação, média)
+- Cálculos de salário e descontos trabalhistas
+- Cálculo de licenças
 - Executação de scripts Node.js
-- Estruturação de projetos JavaScript
+- Estruturação de projetos JavaScript em múltiplas aulas
 
 ## 📁 Estrutura do Projeto
 
 ```
-AULA-03/
+AULAS-LOGICA-JAVASCRIPT/
 ├── src/
 │   ├── scripts/
 │   │   └── script-teste-1.js
 │   └── services/
-│       ├── calculosMatematicos.js
-│       ├── usarMedia.js
-│       ├── usarMultiplicar.js
-│       ├── usarSomar.js
-│       └── usarSubtrair.js
+│       ├── aula-04/
+│       │   ├── calcularSalario.js
+│       │   ├── calculosMatematicos.js
+│       │   ├── calculosTrabalhistas.js
+│       │   ├── usarMedia.js
+│       │   ├── usarMultiplicar.js
+│       │   ├── usarSomar.js
+│       │   └── usarSubtrair.js
+│       └── aula-05/
+│           ├── calculosTrabalhistas.js
+│           └── usarCalculoLicenca.js
 ├── package.json
-├── README.md
-└── info.md
+└── README.md
 ```
 
 ## 🛠️ Requisitos
@@ -65,27 +72,34 @@ node src/usarMedia.js
 
 ### Importar Módulos
 
-Para importar uma função ou classe:
+Para importar funções dos módulos matemáticos (aula-04):
 
 ```javascript
-import { calcularMedia } from './services/calculosMatematicos.js';
+import { calcularMedia } from './services/aula-04/calculosMatematicos.js';
+import { calcularDesconto } from './services/aula-04/calculosTrabalhistas.js';
+import { calcularSalario } from './services/aula-04/calcularSalario.js';
 ```
 
-Exemplo completo:
+Para importar funções de cálculo de licença (aula-05):
 
 ```javascript
-import { calcularMedia } from './services/calculosMatematicos.js';
-
-const notas = [7.5, 8.0, 9.5];
-const media = calcularMedia(notas);
-console.log(`A média é: ${media}`);
+import { calcularLicenca } from './services/aula-05/calculosTrabalhistas.js';
 ```
 
-## 📝 Scripts Disponíveis
+## 📝 Módulos Disponíveis
 
-| Script | Comando | Descrição |
-|--------|---------|-----------|
-| script-1 | `npm run script-1` | Script de teste 1 |
+### Aula 04 - Cálculos Matemáticos e Trabalhistas
+- **calculosMatematicos.js** - Funções básicas: soma, subtração, multiplicação, média
+- **calculosTrabalhistas.js** - Cálculos de descontos e benefícios
+- **calcularSalario.js** - Cálculo de salário com descontos
+- **usarMedia.js** - Exemplo de uso da função média
+- **usarSomar.js** - Exemplo de uso da função soma
+- **usarSubtrair.js** - Exemplo de uso da função subtração
+- **usarMultiplicar.js** - Exemplo de uso da função multiplicação
+
+### Aula 05 - Cálculos de Licença
+- **calculosTrabalhistas.js** - Cálculos específicos de licença
+- **usarCalculoLicenca.js** - Exemplo de uso do cálculo de licença
 
 ## 👤 Autor
 

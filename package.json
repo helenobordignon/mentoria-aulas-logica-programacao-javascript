@@ -11,5 +11,9 @@
   "keywords": [],
   "author": "Heleno Bordignon",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "mocha": "^11.7.5",
+    "mochawesome": "^7.1.4"
+  }
 }

@@ -1,4 +1,4 @@
-# Conceitos Fundamentais
+# Conceitos Fundamentais de LÓGICA DE PROGRAMAÇÃO
 
 **1. Interação Humano x Computador**
 
@@ -26,6 +26,7 @@ Passo 4: Mostrar resultado.
 Decompor ao máximo possível, e se atentar para as ações que são humanas e quais são do sistema.
 
 ENTRADA > PROCESSAMENTO > SAÍDA
+![alt text](image.png)
 
 Decompor = quais ações humanas e quais são ações do sistema.
 ações anda mais é do que "ALGORITMO", descrição passo a passo até o resultado.

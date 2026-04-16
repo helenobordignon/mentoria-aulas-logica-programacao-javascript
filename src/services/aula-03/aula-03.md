@@ -29,7 +29,22 @@ console.log(calcularMedia(10, 20))
 
 Para usar uma função em outros arquivos, precisa usar a palavra chave *export* na classe que será exportada e *import* na classe que será importada.
 
+para executar no terminal:
 
+```
+node src/services/aula-03/usarMedia.js
+```
+
+Ou criar um script no *package.json*
+
+"scripts": {
+    "executar-usarMedia": "node src/services/aula-03/usarMedia.js",
+}
+
+chamar no terminal:
+```
+npm run executar-usarMedia
+```
 
 
 

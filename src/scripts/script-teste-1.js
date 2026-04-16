@@ -1,4 +1,4 @@
-import { somarDoisNumeros, subtrairDoisNumeros, multiplicarDoisNumeros, calcularMedia } from '../calculosMatematicos.js';
+import { somarDoisNumeros, subtrairDoisNumeros, multiplicarDoisNumeros, calcularMedia } from '../services/aula-04/calculosMatematicos.js';
 
 //CONSTANTES
 const NUMERO_1 = 5;

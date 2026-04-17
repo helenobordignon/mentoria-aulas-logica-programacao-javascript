@@ -6,6 +6,7 @@
   "scripts": {
     "script-1": "node src/scripts/script-teste-1.js",
     "script-2": "node src/scripts/script-teste-2.js",
+    "script-3": "node src/scripts/script-teste-3.js",
     "executar-usarMedia": "node src/services/aula-03/usarMedia.js",
     "calcularSalario": "node src/services/calcularSalario.js",
     "test": "echo \"Error: no test specified\" && exit 1"

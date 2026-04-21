@@ -30,3 +30,17 @@ A função forEach() passa por todos os ítens da lista obrigatoriamente
 Armadura do forEach()
 ![alt text](image.png)
 
+EXERCÍCIO:
+
+Preciso de uma função capaz de adicionar um novo contato na lista. Ele deve receber nome e telefone.
+Deposi de adicionar, deve retornar o último contato registrado
+
+1. Entrada
+- nome
+- telefone
+
+2. Processamento
+- Adicionar o nome e telefone como um novo item da lista
+
+3. Saída: 
+- último item da lista

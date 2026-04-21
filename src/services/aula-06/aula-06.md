@@ -8,7 +8,7 @@ instalar a biblioteca mochawesome:
 npm i -D mochawesome
 ```
 
-obs.: -D serve para a dependencia ficar só dentro do porjeto local, não vai para 'produção'
+obs.: -D serve para a dependencia ficar só dentro do porjeto local nas dependencias de desenvolvimento, não vai para 'produção'
 
 e para executar:
 

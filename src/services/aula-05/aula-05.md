@@ -18,12 +18,12 @@ Crie um programa que me ajude a saber quantas semanas de licença devo conceder 
 
 Biblioteca --> [@Mocha](https://mochajs.org/)
 
-instalar o mocha:
+instalar o mocha: (executa o binário para instalação)
 
 ```bash
 npm i -D mocha
 ```
-para executar:
+para executar: (executa dentro do projeto)
 
 ```bash
 npx mocha

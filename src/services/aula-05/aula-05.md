@@ -13,3 +13,34 @@ Crie um programa que me ajude a saber quantas semanas de licença devo conceder 
 
 **SAÍDA**
 - Quantidade de Semanas
+
+# Criando testes automatizados
+
+Biblioteca --> [@Mocha](https://mochajs.org/)
+
+instalar o mocha:
+
+```bash
+npm i -D mocha
+```
+para executar:
+
+```bash
+npx mocha
+```
+
+Testes automatizados (os unitários) geralmente são feitos pelos devs.
+
+![alt text](image.png)
+
+O teste chama a função que devolve o resultado. Esse resultado é comparado para ver se é o esperrado. Isso seria uma asserção.
+
+Para importar a biblioteca de asserção, usar: 
+
+*import assert from 'node:assert'*
+
+para criar uma suite de teste, usar a função 'describe' com uma fnção anônima:
+
+*describe('Testes de Cálculos Trabalhistas', function () { })*
+
+-> Para executar um teste ou grupo de testes específico, colocar it.only // describe.only

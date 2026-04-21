@@ -2,10 +2,10 @@ export function calcularLicenca(sexo) {
     //SE, CASO, QUANDO (Condicionais)
     //.toLowerCase() converte tudo para minúscula antes de comparar
     if (sexo.toLowerCase() == 'masculino') {
-        return 'O funcionário tem direito a 2 semanas de licença paternidade'
+        return 2
     } else if (sexo.toLowerCase() == 'feminino') {
-        return 'A funcionária tem direito a 12 semanas de licença maternidade'
+        return 12
     } else {
-        throw new Error('Sexo não identificado. Por favor, informe se é Masculino ou Feminino.'); // exceção para casos onde o sexo não é identificado
+        throw new Error('Entrada inválida. Por favor, informe se é masculino ou feminino.'); // exceção para casos onde o sexo não é identificado
     }
 }

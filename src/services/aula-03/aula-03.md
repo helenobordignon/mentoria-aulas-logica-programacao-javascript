@@ -2,7 +2,7 @@
 
 Para iniciar um projeto javascript, executar no terminal:
 
-```
+```bash
 npm init -y
 ```
 
@@ -31,7 +31,7 @@ Para usar uma função em outros arquivos, precisa usar a palavra chave *export*
 
 para executar no terminal:
 
-```
+```bash
 node src/services/aula-03/usarMedia.js
 ```
 
@@ -42,7 +42,8 @@ Ou criar um script no *package.json*
 }
 
 chamar no terminal:
-```
+
+```bash
 npm run executar-usarMedia
 ```
 

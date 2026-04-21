@@ -25,3 +25,32 @@ Podemos adicionar no package.json, assim:
 npm test
 npm run test-reporter
 
+# EXERCÍCIO
+
+Preciso de uma função capaz de registrar produtos de uma mercearia. 
+Eles possuem as seguintes informações: codigo, nome, estoque, valor. 
+O nome  pode ser repetido, desde que o código não se repita. 
+O valor e o estoque precisam ser maiores que 0.
+
+1. ENTRADAS
+- codigo
+- nome
+- estoque
+- valor 
+
+2. PROCESSAMENTO (sequência lógica das ações)
+- o código não pode ser repetido
+- o valor precisa ser maior que 0
+- o estoque precisa ser maior que 0
+- registrar o produto
+
+3. SAÍDAS
+- N/A
+
+# EXEMPLOS DE LISTAS
+
+const produtos = [] // lista vazia
+
+produtos.push('produto1') // função que insere elementos na lista
+
+produtos[0] // captura elemento na lista pelo indice

@@ -21,4 +21,6 @@ export function adicionarProduto(codigo, nome, estoque, valor) {
             valor: valor
         }
     )
+    // -1 pega o último elemento da lista
+    return produtos.at(-1)
 }

@@ -31,6 +31,7 @@ Preciso de uma função capaz de registrar produtos de uma mercearia.
 Eles possuem as seguintes informações: codigo, nome, estoque, valor. 
 O nome  pode ser repetido, desde que o código não se repita. 
 O valor e o estoque precisam ser maiores que 0.
+A função deve retornar o último produto da lista
 
 1. ENTRADAS
 - codigo
